@@ -85,6 +85,8 @@ class ViewApp(tk.Frame):
         frame_wid.pack(fill="x")
 
         self.widget = tk.Label(frame_wid)
+        # self.widget = tk.Button(frame_wid)
+        # self.wiget = tk.Entry(frame_wid)
         self.widget.pack()
 
         theme_frame = tk.LabelFrame(self, text="Themes")
